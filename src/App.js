@@ -1,7 +1,8 @@
-import React, {Component} from 'react';
-import './App.css';
+import React, {Component} from "react";
+import "./App.css";
+import JobCard from "./components/JobCard"
 
-class App extends React.Component {
+class App extends Component {
   constructor(props) {
     super(props);
   }
@@ -10,6 +11,7 @@ class App extends React.Component {
     return(
     <div className="App">
       {"hola mundo!"}
+      <JobCard number="1" />
     </div>);
   }
 }
