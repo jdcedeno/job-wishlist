@@ -1,0 +1,9 @@
+.App {
+  max-width: 500px;
+  width: 100%;
+}
+
+#top-header {
+  display: flex;
+  flex-flow: row;
+}
